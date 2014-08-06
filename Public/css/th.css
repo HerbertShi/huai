@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+.th_main{ width:1000px; margin:0 auto;}
+.th_head{ background:url(../images/th_head_bg.png) repeat-x; height:45px;  padding:5px 0  0 15px; z-index:888; position:relative;}
+.th_button{ background:#F00;}
+.th_content{position:relative; margin-top:-10px;}
+.th_3d_bt{position:absolute; top:0; left:295px; background:url(/Public/images/th_3d_button.png) no-repeat; width:376px; height:43px; z-index:9999;}
+.th_3d_bt a{ display:block; width:376px; height:43px;}
+.th_left,.th_right{float:left; height:618px; position:relative;}
+.th_left{  background:url(../images/th_industry_cp.jpg) no-repeat; width:482px;}
+.th_right{ background:url(../images/th_civil_cp.jpg) no-repeat; width:518px;}
+.th_left .yellow{ position:absolute; left:20px; bottom:20px; display:block;}
+.th_left .yellow a{ background: url(../images/th_yellow_bt.png) no-repeat; width:207px; height:60px; display:block;}
+.th_right .green{position:absolute; right:20px; bottom:20px; display:block;}
+.th_right .green a{ background: url(../images/th_green_bt.png) no-repeat; width:207px; height:60px; display:block;}
+.th_foot{ background:#dddddd; height:40px; line-height:40px; font-family:Arial, Helvetica, sans-serif; color:#5d5d5d; padding-left:30px; position:relative;}
+.th_foot .th_foot_right{ width:375px; position: absolute; right:0; top:0;}
+.th_foot .th_foot_right li{ float:left; width:70px; background:url(../images/th_foot_line.png) no-repeat left top; text-align:center;}
+.th_foot .th_foot_right li a{color:#5d5d5d;}
+.th_foot .th_foot_right li a:hover{ color:#51b6da;}
+.clear{ clear:both;}

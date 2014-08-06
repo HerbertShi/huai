@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+<title>人才招聘</title>
+<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="../js/common.js"></script>
+<script type="text/javascript">
+$(function(){
+	$(".bank_table .btn_red").click(function(){
+		$("#popup").show();	
+	})
+	$(".tab a").click(function(){
+			$(this).addClass("active").siblings("a").removeClass("active");	
+			var index = $(this).index();
+			$("#tab_show > div").eq(index).show().siblings("div").hide();
+		});
+})
+</script>
+</head>
+
+<body>
+<div class="wrap wrap_private"> 
+  <!--header-->
+  <div class="header">
+    <div class="contain"> 
+      <!--top area-->
+      <div class="top">
+        <div class="fr">
+          <div class="search">
+            <input type="text" placeholder="请输入关键字" />
+            <a href="../search.html" class="btn btn_gray">搜索</a></div>
+          <div class="link"><a href="#">加入收藏</a>&nbsp;|&nbsp;<a href="#">设为主页</a><a href="../about-us/hire.html" class="margin">诚聘英才<em class="icon downlist">&nbsp;</em></a></div>
+        </div>
+        <!--logo area-->
+        <div class="fl"><a  href="../index.html"><img src="../images/logo.png" /></a></div>
+        <div class="clear">&nbsp;</div>
+      </div>
+      <!--nav area-->
+      <div class="nav"><a href="../index.html" >首页</a><a href="../private/private.html" >个人业务</a><a href="../company/company.html" >公司业务</a><a href="../card/card.html">银行卡</a><a href="../e-bank/e-bank.html">电子银行</a><a href="../mobile-bank/mobile-bank.html">手机银行</a><a href="about-us.html" class="active">关于本行</a></div>
+      <!--banner area-->
+      <div class="banner">
+        <div class="img"><a href="#" style="-moz-opacity:1;filter:alpha(opacity=100);-khtml-opacity:1;opacity:1;z-index:1;"><img src="../images/ad/banner5.jpg" /></a><a href="#"><img src="../images/ad/banner1.jpg" /></a><a href="#"><img src="../images/ad/banner1.jpg" /></a><a href="#"><img src="../images/ad/banner1.jpg" /></a></div>
+        <div class="dotts"><a href="#" class="active"></a><a href="#"></a><a href="#"></a><a href="#"></a></div>
+      </div>
+    </div>
+  </div>
+  
+  <!--container-->
+  <div class="container">
+    <div class="contain"> 
+      <!--right area-->
+      <div class="article fr"> 
+        <!--bread area-->
+        <div class="bread"><a href="../index.html">主页</a>&gt;<a href="about-us.html">关于本行</a>&gt;<span>人才招聘</span></div>
+        <!--block card-->
+        <div class="block card">
+          <div class="padding_lb">
+            <h1>招聘公告</h1>
+          </div>
+          <hr />
+          <div class="content">
+            <div class="news">
+              <ul>
+                <li><span class="fr">2013年11月6日</span><a href="hire-details.html">江苏淮安农村商业银行招聘启事</a></li>
+                <li><span class="fr">2013年11月6日</span><a href="hire-details.html">江苏淮安农村商业银行招聘启事</a></li>
+                <li><span class="fr">2013年11月6日</span><a href="hire-details.html">江苏淮安农村商业银行招聘启事</a></li>
+              </ul>
+            </div>
+            <div class="page"><a href="#" class="active">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">下一页</a><a href="#">尾页</a> </div>
+          </div>
+        </div>
+        <!--<div class="block card">
+          <div class="padding_lb">
+            <h1>招聘职位</h1>
+          </div>
+          <hr />
+          <div class="content">
+            <div class="tab"> <a href="javascript:void(0);" class="active">社会招聘</a><a href="javascript:void(0);">学校招聘</a> </div>
+            <div>
+              <div id="tab_show">
+                <div>
+                  <div class="layer search">
+                    <select>
+                      <option>请选择区域</option>
+                    </select>
+                    <a class="btn btn_gray" href="#">查询</a></div>
+                  <table class="bank_table">
+                    <thead>
+                      <tr>
+                        <th>职位</th>
+                        <th>部门</th>
+                        <th>发布日期</th>
+                        <th>截止日期</th>
+                        <th>申请职位</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><a href="#">零售业务客户经理</a></td>
+                        <td>各分支行</td>
+                        <td>2013-11-05</td>
+                        <td>2013-11-05</td>
+                        <td><a href="javascript:void(0);" class="btn btn_red">立即申请</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="#">柜员</a></td>
+                        <td>各分支行</td>
+                        <td>2013-11-05</td>
+                        <td>2013-11-05</td>
+                        <td><a href="javascript:void(0);" class="btn btn_red">立即申请</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="#">柜员</a></td>
+                        <td>各分支行</td>
+                        <td>2013-11-05</td>
+                        <td>2013-11-05</td>
+                        <td><a href="javascript:void(0);" class="btn btn_red">立即申请</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="#">柜员</a></td>
+                        <td>各分支行</td>
+                        <td>2013-11-05</td>
+                        <td>2013-11-05</td>
+                        <td><a href="javascript:void(0);" class="btn btn_red">立即申请</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="#">柜员</a></td>
+                        <td>各分支行</td>
+                        <td>2013-11-05</td>
+                        <td>2013-11-05</td>
+                        <td><a href="javascript:void(0);" class="btn btn_red">立即申请</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="#">柜员</a></td>
+                        <td>各分支行</td>
+                        <td>2013-11-05</td>
+                        <td>2013-11-05</td>
+                        <td><a href="javascript:void(0);" class="btn btn_red">立即申请</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div class="page"> <a href="#" class="active">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">下一页</a><a href="#">尾页</a> </div>
+                </div>
+                <div>122222222222</div>
+              </div>
+              
+            </div>
+          </div>
+        </div>-->
+      </div>
+      
+      <!--left area-->
+      <div class="aside fl"> 
+        
+        <!--layer bank-->
+        <div class="layer bank">
+          <div class="padding">
+            <div class="title">关于本行</div>
+            <div class="block">
+              <div class="b_title"><a href="about-us.html">淮安农村商业银行简介</a></div>
+              <div class="b_title"><a href="structure.html">组织架构</a></div>
+              <div class="b_title"><a href="outlets.html">银行网点</a></div>
+              <!--<div class="b_title"><a href="culture.html">企业文化</a></div>
+              <div class="b_title"><a href="info.html">信息披露</a></div>-->
+              <div class="b_title active"><a href="hire.html">人才招聘</a></div>
+            </div>
+          </div>
+        </div>
+        
+        <!--layer search-->
+        <div class="layer search">
+          <h1>网点查询</h1>
+          <input type="text" placeholder="请输入关键字" />
+          <a href="../search.html" class="btn btn_gray">搜索</a></div>
+      </div>
+      <div class="clear">&nbsp;</div>
+    </div>
+  </div>
+  <!--footer-->
+  <div class="footer">
+    <div class="contain">
+      <p>2013&copy;淮安农村商业银行&nbsp;版权所有&nbsp;保留所有权利&nbsp;<a href="#">苏icp备08113897号</a></p>
+      <div class="link "><a href="../ir.html"><em class="icon investor">&nbsp;</em>投资者关系</a><a href="../about-us/hire.html"><em class="icon hire">&nbsp;</em>人才招聘</a></div>
+    </div>
+  </div>
+</div>
+
+<!--popup-->
+<div class="popup" id="popup">
+  <div class="title"><a href="javascript:void(0);" class="right">X</a>职位信息</div>
+  <div class="content">
+    <div class="padding">
+      <h1>零售业务客户经理</h1>
+      <p class="indent">岗位职责：积极拓展优质个人客户，构建和维护客户关系；负责驻点或辖内个人贵宾客户的市场拓展与关系维护，提供理财服务和差异化服务；收集整理、反馈市场信息，积极参与业务创新；分析、挖掘客户需求，销售个人金融产品，提供个人金融服务。</p>
+      <p class="indent">资格条件：具有3以上银行零售、理财营销工作经历；熟悉零售业务知识及产品；具有良好的营销业绩、较强的市场敏感度和市场开拓能力；具有AFP或CFP资格者优先。</p>
+      <div class="margin_t2">
+        <h2>应聘方式</h2>
+        <p class="indent">应聘者下载并如实填写《报名表》(点击下载)。将《报名表》及以下资料一并邮寄至：张家港市人民中路66号农商行人力资源部，邮编：215600，并在信封上注明“应聘XX岗位”。</p>
+        <ul>
+          <li>1.个人简历（基本情况、学习经历、工作经历、家庭情况、自我评价、联系方式等）；</li>
+          <li>2.身份证、学历证书（附《教育部学历证书电子注册备案表》）、学位证书、职称证书、岗位资格证书等复印件；</li>
+          <li>3.近期全身生活照1张。</li>
+        </ul>
+      </div>
+      <div class="margin_t">
+        <h2>应聘须知</h2>
+        <ul>
+          <li>1.报名截止时间：2013年9月30日。咨询电话：0512-56968090。</li>
+          <li>2.按照报名、初审、考试、背景调查等程序择优录用，一经录用，提供在同行业具有竞争力的工资、福利待遇。</li>
+          <li>3.经初审合格者，另行通知考试时间；两个月内未收到通知，视为未通过。应聘材料代为保密，恕不退还，谢绝来访。</li>
+        </ul>
+      </div>
+      <div class="align_right margin_t2"><a href="javascript:void(0);" class="btn btn_white">返回</a></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

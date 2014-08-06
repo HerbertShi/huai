@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<title>功能演示</title>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript">
+	$(function(){
+		
+		$(".tab_bank a").click(function(){
+			$(this).addClass("active").siblings("a").removeClass("active");	
+			var index = $(this).index();
+			$("#tab_show > div").eq(index).show().siblings("div").hide();
+		});	
+		$(".tab_bank a").eq(location.search.split("?")[1]).click();
+	})
+</script>
+</head>
+
+<body>
+<div class="wrap wrap_private"> 
+  <!--header-->
+  <div class="header">
+    <div class="contain"> 
+      <!--top area-->
+      <div class="top">
+        <div class="fr">
+          <div class="search">
+            <input type="text" placeholder="请输入关键字" />
+            <a href="search.html" class="btn btn_gray">搜索</a></div>
+          <div class="link"><a href="#">加入收藏</a>&nbsp;|&nbsp;<a href="#">设为主页</a><a href="about-us/hire.html" class="margin">诚聘英才<em class="icon downlist">&nbsp;</em></a></div>
+        </div>
+        <!--logo area-->
+        <div class="fl"><a  href="index.html"><img src="images/logo.png" /></a></div>
+        <div class="clear">&nbsp;</div>
+      </div>
+      <!--nav area-->
+      <div class="nav"><a href="index.html" >首页</a><a href="private/private.html">个人业务</a><a href="company/company.html">公司业务</a><a href="card/card.html">银行卡</a><a href="e-bank/e-bank.html">电子银行</a><a href="mobile-bank/mobile-bank.html">手机银行</a><a href="about-us/about-us.html">关于本行</a></div>
+      <!--banner area-->
+      <div class="banner">
+        <div class="img"><a href="#" style="-moz-opacity:1;filter:alpha(opacity=100);-khtml-opacity:1;opacity:1;z-index:1;"><img src="images/ad/banner5.jpg" /></a><a href="#"><img src="images/ad/banner1.jpg" /></a><a href="#"><img src="images/ad/banner1.jpg" /></a><a href="#"><img src="images/ad/banner1.jpg" /></a></div>
+        <div class="dotts"><a href="#" class="active"></a><a href="#"></a><a href="#"></a><a href="#"></a></div>
+      </div>
+    </div>
+  </div>
+  
+  <!--container-->
+  <div class="container">
+    <div class="contain">
+    <div style="background:#f0f0f0; border:1px solid #e0e0e0; font-size:16px; height:45px; padding:0 25px; line-height:45px; color:#333;"> 在线演示</div>
+    <span><img src="images/show/show01.jpg" /></span>
+    <span><img src="images/show/show02.jpg" /></span>
+     <div style="font-size:16px; height:45px; padding:0 25px; line-height:45px; color:#333; margin-top:20px;">个人网上银行5大服务</div>
+    <div class="mobile_bank">
+        <div class="tab_bank">
+        <a href="javascript:void(0);" class="active"><span  class="icon">&nbsp;</span>账户查询</a>
+        <a href="javascript:void(0);"><span  class="icon">&nbsp;</span>转账汇款</a>
+        <a href="javascript:void(0);" ><span  class="icon">&nbsp;</span>基础理财</a>
+        <a href="javascript:void(0);" ><span  class="icon">&nbsp;</span>通知存款</a>
+        <a href="javascript:void(0);" ><span  class="icon">&nbsp;</span>定活通</a></div>
+        <div id="tab_show">
+          <div class="tab_bank_content">
+            <div class="d_details"> <span><img src="images/show/show03.jpg" /></span></div>
+          </div>
+          <div class="tab_bank_content" style="display:none;"><span><img src="images/show/show04.jpg" /></span></div>
+          <div class="tab_bank_content" style="display:none;"><span><img src="images/show/show05.jpg" /></span></div>
+          <div class="tab_bank_content" style="display:none;"><span><img src="images/show/show06.jpg" /></span></div>
+          <div class="tab_bank_content" style="display:none;"> <span><img src="images/show/show07.jpg" /></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--footer-->
+  <div class="footer">
+    <div class="contain">
+      <p>2013&copy;淮安农村商业银行&nbsp;版权所有&nbsp;保留所有权利&nbsp;<a href="#">苏icp备08113897号</a></p>
+      <div class="link "><a href="ir.html"><em class="icon investor">&nbsp;</em>投资者关系</a><a href="about-us/hire.html"><em class="icon hire">&nbsp;</em>人才招聘</a></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

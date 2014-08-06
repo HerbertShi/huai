@@ -1,0 +1,244 @@
+﻿@charset "utf-8";
+body{
+	background:#eaeaea;
+	text-align:left;
+}
+body.consign{
+	background:#fff;
+}
+.main_box{
+	width:670px;
+	background-color:#fff;
+	margin:0 auto;
+}
+.main_box h2{
+	margin:0;
+}
+
+.main{width:100%; float:left; background:#fff; padding-bottom:20px;}
+.consign .main_box{
+	float:left;
+}
+h3{
+	height:30px;
+	width:100%;
+	text-indent:1.5em;
+	font-weight:bold;
+	color:#fff;
+	background-color:#6487dc;
+	border-bottom:solid 1px #979ba0;
+	line-height:30px;
+	margin-top:0;
+	margin-bottom:10px;/*for ff*/
+	letter-spacing:1px;
+}
+.consign h3{
+	background:#fff;
+	color:#6487dc;
+	border-bottom:none;
+	margin:10px 0 0;
+}
+.sub_sel{color:#898989; height:auto;}
+h5{color:#232323; font-weight:normal; float:left; width:auto; margin:0; margin-top:6px;}
+.op_item_br{margin-bottom:10px; border-bottom:dotted 1px #ddd; padding-bottom:6px;}
+.op_item_br font{padding:0 4px 0 2px;}
+.storage_t{width:100%; float:left;}
+.storage_t span{line-height:20px; margin-top:6px; display:block; float:left; margin-left:6px;}
+.sub_title{
+	margin:18px 0 6px 0;
+	*margin-top:15px;
+	border-bottom:solid 2px #ccc;
+	margin-left:2px;
+}
+.audit .sub_title{
+	border-bottom:none;
+}
+.sub_title h4{
+	clear:left;
+	text-indent:1.8em;
+	color:#003984;
+	letter-spacing:1px;
+	margin-left:0;
+}
+dl{
+	clear:left;
+	width:99%;
+	float:left;
+	line-height:20px;
+}
+dt{
+	float:left;
+	letter-spacing:1px;
+	color:#888;
+	width:132px;
+	text-align:right;
+	margin:0 10px 5px 0;
+}
+dd{
+	width:505px;
+	margin-bottom:5px;
+	text-align:left;
+	display: inline-block;
+	min-height:20px;
+}
+.postage dd, .consign_detail dd{
+	float:left;
+	width:342px;
+}
+/*operate define*/
+.operate_box{
+	clear:left;
+	padding:8px 0;
+	text-align:center;
+	width:100%;
+	height:40px;
+}
+
+/*score product exchange show define*/
+.img_100 h4{
+	font-weight:bold;
+}
+.img_100 img{
+	float:left;
+	margin:8px 0 20px 18px;
+}
+.img_100 div.left{
+	width:550px;
+}
+.img_100 dl{
+	width:100%;
+	margin:8px 0;
+}
+.img_100 dt{
+	margin-bottom:10px;
+}
+.img_100 dd{
+	width:420px;
+	margin-bottom:10px;
+}
+
+/*audit up define*/
+dd.deliver_fee .fee{
+	width:60px;
+	margin-right:5px;
+	margin-left:1px;
+}
+dd.deliver_fee .deli_comp{
+	padding-left:19px;
+	margin:5px 0 8px;
+	margin-bottom:8px;
+	font-weight:bold;
+}
+dd.deliver_fee .deli_comp span{
+	padding:0 3px 0 8px;
+	font-weight:normal;
+	color:#999;
+}
+dd.deliver_fee .deli_comp a{
+	font-weight:normal;
+}
+
+/*consign order define*/
+.consign .main_box{
+	width:900px;
+}
+.consign h3{
+	width:70px;
+	float:left;
+	margin:0;
+	line-height:normal;
+	height:auto;
+	text-indent:0.5em;
+}
+.consign .sub_title{
+	padding-bottom:5px;
+	margin-top:35px;
+	border:none;
+	*float:none!important
+}
+.consign .sub_title span{
+	padding-left:5px;
+	font-weight:bold;
+	color:#222;
+	font-size:14px;
+}
+.consign .table_div{
+	margin-top:10px;
+	margin-bottom:18px;
+}
+.consign .table_div ul.list_higher li{
+	height:65px;
+	line-height:65px;
+}
+.consign .table_div ul.list_higher li.line_21{
+	line-height:21px;
+	overflow:hidden;
+	overflow-y:auto;
+}
+.consign h5{
+	margin:5px;
+	font-weight:normal;
+}
+.consign_bt{
+	padding:15px 10px;
+	border:1px solid #ffcc80;
+	background:#ffe;
+	text-align:center;
+	margin:10px 0;
+}
+.consign_bt span{
+	display:block;
+	width:100%;
+	padding-bottom:5px;
+}
+#consign ul{
+	float:none;
+}
+#consign ul{overflow:auto;}
+/*end*/
+/*consign_detail define*/
+.consign_detail .sub_title{
+	margin-bottom:10px;
+	margin-top:20px;
+	border-bottom:none;
+	overflow:auto;
+	clear:both;
+}
+.consign_detail .status{
+	width:100%;
+	float:left;
+	border:1px solid #ffcc80;
+	background:#ffe;
+	padding:15px 0;
+	margin-bottom:8px;
+}
+.consign_detail .status div{
+	font-size:14px;
+	letter-spacing:1px;
+	float:left;
+	margin-left:20px;
+	margin-bottom:8px;
+}
+.consign_detail h5{
+	margin-top:8px;
+}
+.consign_detail dd div{
+	margin-bottom:2px;
+}
+/*end*/
+/*card audit define*/
+#card h3{
+	text-indent:0.5em;
+}
+#card dd ul{
+	margin-left:0;
+}
+#card dd li{
+	width:165px;
+	float:left;
+	padding-top:0;
+	padding-left:0;
+}
+/*end*/
+
+.img_300{width:300px; height:auto !important; height:300px; max-height:300px; overflow:hidden;}

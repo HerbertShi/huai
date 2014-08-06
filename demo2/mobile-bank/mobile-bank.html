@@ -1,0 +1,348 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+<title>手机银行</title>
+<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="../js/common.js"></script>
+<script type="text/javascript">
+	$(function(){
+		
+		$(".tab_bank a").click(function(){
+			$(this).addClass("active").siblings("a").removeClass("active");	
+			var index = $(this).index();
+			$("#tab_show > div").eq(index).show().siblings("div").hide();
+		});	
+		$(".tab_bank a").eq(location.search.split("?")[1]).click();
+	})
+</script>
+</head>
+
+<body>
+<div class="wrap wrap_private"> 
+  <!--header-->
+  <div class="header">
+    <div class="contain"> 
+      <!--top area-->
+      <div class="top">
+        <div class="fr">
+          <div class="search">
+            <input type="text" placeholder="请输入关键字" />
+            <a href="../search.html" class="btn btn_gray">搜索</a></div>
+          <div class="link"><a href="#">加入收藏</a>&nbsp;|&nbsp;<a href="#">设为主页</a><a href="../about-us/hire.html" class="margin">诚聘英才<em class="icon downlist">&nbsp;</em></a></div>
+        </div>
+        <!--logo area-->
+        <div class="fl"><a  href="../index.html"><img src="../images/logo.png" /></a></div>
+        <div class="clear">&nbsp;</div>
+      </div>
+      <!--nav area-->
+      <div class="nav"><a href="../index.html" >首页</a><a href="../private/private.html">个人业务</a><a href="../company/company.html">公司业务</a><a href="../card/card.html">银行卡</a><a href="../e-bank/e-bank.html">电子银行</a><a href="../mobile-bank/mobile-bank.html" class="active">手机银行</a><a href="../about-us/about-us.html">关于本行</a></div>
+      <!--banner area-->
+      <div class="banner">
+        <div class="img"><a href="#" style="-moz-opacity:1;filter:alpha(opacity=100);-khtml-opacity:1;opacity:1;z-index:1;"><img src="../images/ad/banner5.jpg" /></a><a href="#"><img src="../images/ad/banner1.jpg" /></a><a href="#"><img src="../images/ad/banner1.jpg" /></a><a href="#"><img src="../images/ad/banner1.jpg" /></a></div>
+        <div class="dotts"><a href="#" class="active"></a><a href="#"></a><a href="#"></a><a href="#"></a></div>
+      </div>
+    </div>
+  </div>
+  
+  <!--container-->
+  <div class="container">
+    <div class="contain"> 
+      <!--mobile_bank area-->
+      <div class="mobile_bank">
+        <div class="tab_bank"><a href="javascript:void(0);" class="active"><span  class="icon android_b">&nbsp;</span>Android版</a><a href="javascript:void(0);"><span  class="icon iphone_b">&nbsp;</span>Iphone版</a><a href="javascript:void(0);" ><span  class="icon iphone_b">&nbsp;</span>Ipad版</a><a href="javascript:void(0);" ><span  class="icon wp7_b">&nbsp;</span>WP7版</a></div>
+        <div id="tab_show">
+          <div class="tab_bank_content">
+            <div class="d_details">
+            <a href="#"><img src="../images/ad/mobile_banner.png" /></a>
+             <!-- <div class="right">
+                <dl>
+                  <dt>江苏淮安农村商业银行<br/>
+                    Android版客户端</dt>
+                  <dd>
+                    <p>界面友好炫酷，支持各类智能机，行内转账汇款0费用，专属基础理财产品，实现活转定或定转活，全新的架构设计，功能应有尽有。特有ATM预约现金取款，无卡也能取现，乐享金融新生活。</p>
+                  </dd>
+                </dl>
+                <div class="margin_t2 margin_b"><a href="#" class="btn btn_deepred"><img src="../images/icon/download_icon.png" /><span>免费下载</span></a></div>
+                <div class="intro">
+                  <ul>
+                    <li>适应机型：Android系列智能手机</li>
+                    <li>系统要求：Android版本2.0以上，只要您的手机可以上网即可。</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="left"><img src="../images/ad/android.png" /></div>
+              <div class="clear">&nbsp;</div>-->
+            </div>
+            <div class="layer">
+              <div class="title"><span>下载安装包</span></div>
+              <div class="box">
+                <div class="">
+                  <dl>
+                    <dt>方式1：二维码扫描</dt>
+                    <dd>
+                      <p>使用手机扫描以下二维码直接打开链接下载安装。（省联社网站提供）</p>
+                    </dd>
+                    <dd class="align_center"><img src="../images/ad/rand.png" /></dd>
+                  </dl>
+                </div>
+                <div class="">
+                  <dl>
+                    <dt>方式2：直接下载</dt>
+                    <dd>
+                      <p>点击以下“客户端下载”按钮直接下载手机银行客户端到指定手机或SD卡中进行安装；（省联社网站提供）</p>
+                    </dd>
+                    <dd> <a href="#" class="btn btn_deepred margin_t2">客户端下载</a> </dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+            <div class="layer">
+              <div class="title  no_border"><span>在线安装</span></div>
+              <div class="box">
+                <div class="">
+                  <dl>
+                    <dt>方式1：安卓市场</dt>
+                    <dd>
+                      <p>运行Android（安卓）智能机上的安卓市场，在搜索框中输入“江苏农信”即可找到“手机银行客户端”官方应用软件；</p>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="">
+                  <dl>
+                    <dt>方式2：安卓软件商城</dt>
+                    <dd>
+                      <p>登录安卓软件商城，在搜索框中输入“江苏农信”即可找到“手机银行客户端”官方应用软件，下载安装即可；</p>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="">
+                  <dl>
+                    <dt>方式3：江苏农信官方门户网站</dt>
+                    <dd>
+                      <p>通过江苏农信官方门户网站www.js96008.com,直接下载手机银行客户端进行安装使用。</p>
+                    </dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+            <div class="layer">
+              <div class="title  no_border"><span>安装方式</span></div>
+              <div class="box">
+                <div>
+                  <p>在手机上运行下载后的APK文件进行安装。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab_bank_content" style="display:none;">
+            <div class="d_details">
+            <a href="#"><img src="../images/ad/mobile_banner.png" /></a>
+            </div>
+            <div class="layer">
+              <div class="title"><span>下载安装包</span></div>
+              <div class="box">
+                <div class="">
+                  <dl>
+                    <dt>方式1：二维码扫描</dt>
+                    <dd>
+                      <p>使用手机扫描以下二维码直接打开链接下载安装。（省联社网站提供）</p>
+                    </dd>
+                    <dd class="align_center"><img src="../images/ad/rand.png" /></dd>
+                  </dl>
+                </div>
+                <div class="">
+                  <dl>
+                    <dt>方式2：直接下载</dt>
+                    <dd>
+                      <p>点击以下“客户端下载”按钮直接下载手机银行客户端到指定手机或SD卡中进行安装；（省联社网站提供）</p>
+                    </dd>
+                    <dd> <a href="#" class="btn btn_deepred margin_t2">客户端下载</a> </dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+            <div class="layer">
+              <div class="title  no_border"><span>在线安装</span></div>
+              <div class="box">
+                <div class="">
+                  <dl>
+                    <dt>方式1：安卓市场</dt>
+                    <dd>
+                      <p>运行Android（安卓）智能机上的安卓市场，在搜索框中输入“江苏农信”即可找到“手机银行客户端”官方应用软件；</p>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="">
+                  <dl>
+                    <dt>方式2：安卓软件商城</dt>
+                    <dd>
+                      <p>登录安卓软件商城，在搜索框中输入“江苏农信”即可找到“手机银行客户端”官方应用软件，下载安装即可；</p>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="">
+                  <dl>
+                    <dt>方式3：江苏农信官方门户网站</dt>
+                    <dd>
+                      <p>通过江苏农信官方门户网站www.js96008.com,直接下载手机银行客户端进行安装使用。</p>
+                    </dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+            <div class="layer">
+              <div class="title  no_border"><span>安装方式</span></div>
+              <div class="box">
+                <div>
+                  <p>在手机上运行下载后的APK文件进行安装。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab_bank_content" style="display:none;">
+            <div class="d_details">
+            <a href="#"><img src="../images/ad/mobile_banner.png" /></a>
+          	</div>
+            <div class="layer">
+              <div class="title"><span>下载安装包</span></div>
+              <div class="box">
+                <div class="">
+                  <dl>
+                    <dt>方式1：二维码扫描</dt>
+                    <dd>
+                      <p>使用手机扫描以下二维码直接打开链接下载安装。（省联社网站提供）</p>
+                    </dd>
+                    <dd class="align_center"><img src="../images/ad/rand.png" /></dd>
+                  </dl>
+                </div>
+                <div class="">
+                  <dl>
+                    <dt>方式2：直接下载</dt>
+                    <dd>
+                      <p>点击以下“客户端下载”按钮直接下载手机银行客户端到指定手机或SD卡中进行安装；（省联社网站提供）</p>
+                    </dd>
+                    <dd> <a href="#" class="btn btn_deepred margin_t2">客户端下载</a> </dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+            <div class="layer">
+              <div class="title  no_border"><span>在线安装</span></div>
+              <div class="box">
+                <div class="">
+                  <dl>
+                    <dt>方式1：安卓市场</dt>
+                    <dd>
+                      <p>运行Android（安卓）智能机上的安卓市场，在搜索框中输入“江苏农信”即可找到“手机银行客户端”官方应用软件；</p>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="">
+                  <dl>
+                    <dt>方式2：安卓软件商城</dt>
+                    <dd>
+                      <p>登录安卓软件商城，在搜索框中输入“江苏农信”即可找到“手机银行客户端”官方应用软件，下载安装即可；</p>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="">
+                  <dl>
+                    <dt>方式3：江苏农信官方门户网站</dt>
+                    <dd>
+                      <p>通过江苏农信官方门户网站www.js96008.com,直接下载手机银行客户端进行安装使用。</p>
+                    </dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+            <div class="layer">
+              <div class="title  no_border"><span>安装方式</span></div>
+              <div class="box">
+                <div>
+                  <p>在手机上运行下载后的APK文件进行安装。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab_bank_content" style="display:none;">
+            <div class="d_details">
+            <a href="#"><img src="../images/ad/mobile_banner.png" /></a>
+           
+            </div>
+            <div class="layer">
+              <div class="title"><span>下载安装包</span></div>
+              <div class="box">
+                <div class="">
+                  <dl>
+                    <dt>方式1：二维码扫描</dt>
+                    <dd>
+                      <p>使用手机扫描以下二维码直接打开链接下载安装。（省联社网站提供）</p>
+                    </dd>
+                    <dd class="align_center"><img src="../images/ad/rand.png" /></dd>
+                  </dl>
+                </div>
+                <div class="">
+                  <dl>
+                    <dt>方式2：直接下载</dt>
+                    <dd>
+                      <p>点击以下“客户端下载”按钮直接下载手机银行客户端到指定手机或SD卡中进行安装；（省联社网站提供）</p>
+                    </dd>
+                    <dd> <a href="#" class="btn btn_deepred margin_t2">客户端下载</a> </dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+            <div class="layer">
+              <div class="title  no_border"><span>在线安装</span></div>
+              <div class="box">
+                <div class="">
+                  <dl>
+                    <dt>方式1：安卓市场</dt>
+                    <dd>
+                      <p>运行Android（安卓）智能机上的安卓市场，在搜索框中输入“江苏农信”即可找到“手机银行客户端”官方应用软件；</p>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="">
+                  <dl>
+                    <dt>方式2：安卓软件商城</dt>
+                    <dd>
+                      <p>登录安卓软件商城，在搜索框中输入“江苏农信”即可找到“手机银行客户端”官方应用软件，下载安装即可；</p>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="">
+                  <dl>
+                    <dt>方式3：江苏农信官方门户网站</dt>
+                    <dd>
+                      <p>通过江苏农信官方门户网站www.js96008.com,直接下载手机银行客户端进行安装使用。</p>
+                    </dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+            <div class="layer">
+              <div class="title  no_border"><span>安装方式</span></div>
+              <div class="box">
+                <div>
+                  <p>在手机上运行下载后的APK文件进行安装。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--footer-->
+  <div class="footer">
+    <div class="contain">
+      <p>2013&copy;淮安农村商业银行&nbsp;版权所有&nbsp;保留所有权利&nbsp;<a href="#">苏icp备08113897号</a></p>
+      <div class="link "><a href="../ir.html"><em class="icon investor">&nbsp;</em>投资者关系</a><a href="../about-us/hire.html"><em class="icon hire">&nbsp;</em>人才招聘</a></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

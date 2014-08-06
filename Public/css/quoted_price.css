@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+.common_wrap .clear{ height:0px; overflow:hidden; display:block; width:0px;}
+
+/*公司概况*/
+.case{ border:1px solid #e9e9e9; margin-bottom:15px; margin-right:15px; background:url(../images/case_icon.png) 700px 124px no-repeat; -webkit-box-shadow: 0px 3px 2px #f0f0f0; -moz-box-shadow:0px 3px 2px #f0f0f0; box-shadow: 0px 3px 2px #f0f0f0;}
+.case .title{ background:#f9f9f9; height:45px; line-height:45px; color:#404040; font-size:16px; padding:0px 14px; overflow:hidden;}
+.case .title a{ float:right; margin-top:8px;}
+.case .content{ padding:14px;  border-top:1px solid #e9e9e9; background:#fff;}
+.case .content dt,.case .content dd{ float:left;}
+.case .content dt{ overflow:hidden; width:154px; height:96px;}
+.case .content dd{ width:545px; float:right; height:96px; overflow:hidden;}
+.case .content dl{ clear:both;}
+.case .content p{ text-align:justify; font-size:12px; color:#8e8d8d; line-height:20px; word-wrap:break-word;}
+.case .content a{ color:#8e8d8d;}
+.case .content a:hover{ color:#54A8CA;}
+.case .content a img{width:145px; height:96px; margin-right:15px;}
+
+.btn_details{ color:#6a6a6a; font-family:"宋体"; font-size:12px; font-weight:bold; display:inline-block; height:26px; width:84px; line-height:26px; text-align:center; border:1px solid #dadada; -webkit-box-shadow: 2px 2px 2px #e7e7e7; -moz-box-shadow:2px 2px 2px #e7e7e7; box-shadow: 2px 2px 2px #e7e7e7; }
+
+/*成功案例 详情*/
+.case_details .left_bar{ width:613px; padding:15px; padding-right:0px; float:left; height:605px; position:relative;}
+.case_details  .left_bar img{ margin-bottom:17px; width:595px;}
+.case_details  .left_bar .scroll{ position:absolute; display:block; top:0px; right:7px; height:100%; width:6px;}
+.case_details  .left_bar .scroll span{ display:inline-block; top:20px; width:6px; height:28px; background:url(../images/scroll_icon.png) no-repeat; position:absolute;}
+.case_details  .left_bar .scroll span:hover,.case_details .left_bar .scroll span:active{	opacity:0.7; /* 透明度 */ 	-moz-opacity:0.7;/*火狐*/ filter:alpha(opacity=70); /*IE*/ -khtml-opacity: 0.7; /* khtml, old safari */}
+.case_details .right_content{ min-height:615px; width:345px; background:#f7f7f7; float:right; border-left:1px solid #e6e6e6; padding:20px 15px; position:relative;}
+
+.details p{ line-height:20px; word-wrap:break-word; color:#8e8d8d; font-family:"宋体"; text-align:justify;  padding:0px 12px;}
+.details hr{ border:none; border-top:1px solid #cecece; height:1px; margin:15px 0px;}
+.details h1{ font-size:18px; color:#5d5d5d;  padding:0px 12px;}
+.details .title{ margin-bottom:25px; font-size:14px; color:#fff; padding:0px 12px;}
+.details .title span{ background:#5d5d5d; padding:2px 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; font-weight:bold;}
+.case_details .btn_back{ position:absolute; bottom:12px; right:17px;}
+
+.btn_back{ width:56px; height:22px; line-height:22px; text-align:center; color:#fff; font-size:12px; background:#4396b7; display:inline-block; }
+
+/*合作联盟*/
+.cooperation{background:#f5f5f5;}
+.cooperation .left_bar{ width:710px; background:#f5f5f5; text-align:center; height:656px; padding-top:30px; overflow:hidden;}
+.cooperation .right_content{ width:290px; float:right; border-left:1px solid #dcdcdc; background:#fff; padding:15px 0 10px 0px; position:relative;}
+.cooperation .details h1{ margin-bottom:10px; padding:0px 22px;}
+.details h1.orange{ color:#ff7e00;}
+.details h1.blue{ color:#53a7c9;}
+.cooperation .details p{padding:0px 22px;}
+.cooperation .details hr{ margin:10px 0px; border-top:1px solid #f1f1f1;}
+.list{ border:1px solid #f1f1f1; width:270px; margin:0 auto; font-family:"宋体"; margin-bottom:8px; border-top:0px;}
+.list dl{ clear:both; border-top:1px solid #f1f1f1; padding:10px; height:20px; line-height:20px; font-size:12px; overflow:hidden;}
+.list dt,.list dd{ float:left;}
+.list dt{ width:190px; display:block; text-overflow:ellipsis; overflow:hidden; white-space:nowrap; word-break: keep-all; -o-text-overflow:ellipsis; -icab-text-overflow: ellipsis; -khtml-text-overflow: ellipsis; 	-moz-text-overflow: ellipsis; -webkit-text-overflow: ellipsis; -moz-binding:url('ellipsis.xml#ellipsis'); color:#7aacc0;}
+.list dt a{ color:#7aacc0;}
+.list dt a:hover{ text-decoration:underline;}
+.list dd{ color:#8e8e8e; width:50px; display:block; text-overflow:ellipsis; overflow:hidden; white-space:nowrap; word-break: keep-all; -o-text-overflow:ellipsis; -icab-text-overflow: ellipsis; -khtml-text-overflow: ellipsis; -moz-text-overflow: ellipsis; -webkit-text-overflow: ellipsis; -moz-binding:url('ellipsis.xml#ellipsis');}
+.list dd.width_1{ width:10px; text-align:right; padding-top:4px;}
+
+.cooperation .big_arrow{ position:absolute; top:27px; right:22px; }
+.big_arrow{ background:url(../images/arrow_icon.png); display:inline-block; width:11px; height:20px; z-index:1;}
+.big_arrow:hover{ background:url(../images/arrow_icon_hover.png);}
+.arrow{ background:url(../images/arrow_2_icon.png) no-repeat; display:inline-block; width:8px; height:14px; z-index:1;}
+.arrow:hover{ background:url(../images/arrow_2_icon_hover.png) no-repeat;}
+
+/*合作加盟 从业人员*/
+.employee{}
+.employee .title{ color:#343434; font-size:14px; font-weight:bold; padding:15px 25px;}
+.employee .address{ height:126px; background:#80899b; color:#fff; font-family:"Arial"; padding:0px 40px;}
+.employee .address dl{ float:left; width:240px; line-height:22px; padding:0px 30px; padding-top:33px; background:url(../images/line.png) right center no-repeat; height:93px;}
+.employee .address a{ color:#fff;}
+.employee .address dl.no_bg{ background:none;}
+.employee .address dl.width_1{ width:260px;}
+.employee .address dt{ font-weight:bold;}
+.employee .address dd{}
+.employee .employee_details{ width:723px; margin-left:280px; font-family:"宋体"; clear:both;}
+.employee .employee_details .little_title{ height:45px; line-height:45px; color:#4e4e4e; font-size:14px; font-weight:bold; border-bottom:2px solid #7e818a; padding-left:5px;}
+.employee .employee_details .content{ background:#f7f7f3; padding:20px;  margin-bottom:12px;}
+.employee .employee_details .content dt{ font-weight:bold; font-size:18px; color:#717171; margin-bottom:13px;}
+.employee .employee_details .content dt.blue{ color:#4699ba;}
+.employee .employee_details .content p{ color:#828282; font-size:13px; word-break:break-all;}
+.employee .employee_details .content dl{ float:right; width:532px; position:relative; height:155px;}
+.employee .employee_details .content dd{ height:64px; overflow:hidden;}
+.employee .employee_details .contact{ position:absolute; bottom:8px; font-family:"Arial"; color:#5f5f5f; padding-left:7px;}
+.employee .employee_details .contact a{ color:#5f5f5f;}
+.employee .employee_details .contact span{ margin:0px 8px;}
+.employee .employee_details .contact img{vertical-align:middle; float:none;}
+.employee .employee_details img{ float:left;}
+
+/*水箱自助报价*/
+.tank_quoted_price{width:740px; float:right;padding: 25px 15px 20px 5px;}
+.tank_quoted_price .quoted_title{ background:#f3f2f3; height:35px; border:1px solid #d6d6d6; font-size:14px; padding:0 20px; line-height:35px; color:#616161; font-family:"宋体"; font-weight:bold; position:relative;}
+.tank_quoted_price .quoted_title span{ position:absolute; right:0px; top:0px;}
+.tank_quoted_price .quoted_title span a{ float:left; width:70px; color:#73b7db; font-size:12px;}
+.tank_quoted_price .quoted_title span a img{ vertical-align:middle;}
+.tank_quoted_price .category{ margin:10px 0;}
+.tank_quoted_price .category ul li{ float:left; margin-right:20px; line-height:26px;}
+.tank_quoted_price .Report{ margin:15px 0;}
+.tank_quoted_price .Report table th{ height:33px; border-bottom:1px solid #e7e7e7; color:#54a8ca; background:#f9f9f9;}
+.tank_quoted_price .Report table td{ height:42px; text-align:center; border-bottom:1px dashed #dedede; line-height:42px;}
+.tank_quoted_price .Report table td span,.tank_quoted_price .Total_cost span{ color:#ff7e00; font-weight:bold;}
+.tank_quoted_price .Total_cost{ text-align:center; border-top:1px solid #d9d9d9; height:40px; line-height:40px; display:block; font-size:14px; color:#7e7e7e;}
+.tank_quoted_price .Bonus{ background:#f6f4df; border:1px solid #e7dcb2; padding:10px;}
+.tank_quoted_price .Bonus ul li{ float:left; margin-right:15px;}
+.tank_quoted_price .Remark{line-height:24px; padding:10px; color:#646464;}
+.Price_input{ width:30px; border:1px solid #CCC; height:20px; line-height:20px; padding:0 10px;}
+
+
+/*叠加*/
+.clear{ clear:both;}
+.margin_1{margin-top:15px;}
+.width_1{ width:17px;}
